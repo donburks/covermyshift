@@ -1,0 +1,4 @@
+<h1><%= @teacher.username %></h1>
+<% @teacher.shifts.each do |shift| %>
+	<p><%= shift.start %></p>
+<% end %>
